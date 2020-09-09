@@ -1,0 +1,6 @@
+# Use deprecated bases for compatibility
+bases:
+  - ../../bases
+
+patches:
+  - path: patch_deployment.yaml
