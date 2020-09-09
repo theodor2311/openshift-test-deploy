@@ -1,0 +1,16 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: openshift-test
+  labels:
+    app: openshift-test
+spec:
+  to:
+    kind: Service
+    name: openshift-test
+    weight: 100
+  port:
+    targetPort: 8080-8080
+  tls:
+    termination: edge
+  wildcardPolicy: None

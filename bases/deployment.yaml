@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: openshift-test
+spec:
+  selector:
+    matchLabels:
+      app: openshift-test
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: openshift-test
+    spec:
+      containers:
+        - name: openshift-test
+          image: theodor2311/openshift-test:latest
+          ports:
+            - containerPort: 8080
