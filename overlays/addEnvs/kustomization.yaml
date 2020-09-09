@@ -1,6 +1,6 @@
-# Use deprecated bases for compatibility
+# Use deprecated config for compatibility
 bases:
   - ../../bases
 
 patchesStrategicMerge:
-  - path: patch_deployment.yaml
+  - patch_deployment.yaml
