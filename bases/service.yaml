@@ -1,12 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: example
-  namespace: test
+  name: openshift-test
 spec:
   selector:
-    app: MyApp
+    app: openshift-test
   ports:
     - protocol: TCP
-      port: 80
-      targetPort: 9376
+      port: 8080
+      targetPort: 8080
