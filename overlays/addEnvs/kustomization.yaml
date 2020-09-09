@@ -2,5 +2,5 @@
 bases:
   - ../../bases
 
-patches:
+patchesStrategicMerge:
   - path: patch_deployment.yaml
