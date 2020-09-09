@@ -1,6 +1,6 @@
 # Use deprecated bases for compatibility
 bases:
-  - ../../bases
+  - ../addEnvs
 
 images:
   - name: theodor2311/openshift-test
