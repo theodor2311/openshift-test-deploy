@@ -1,0 +1,7 @@
+# Use deprecated bases for compatibility
+bases:
+  - ../addEnvs
+
+images:
+  - name: theodor2311/openshift-test
+    newTag: v2
