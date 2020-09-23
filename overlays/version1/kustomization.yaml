@@ -4,4 +4,4 @@ bases:
 
 images:
   - name: theodor2311/openshift-test
-    newTag: tekton
+    newTag: v1
